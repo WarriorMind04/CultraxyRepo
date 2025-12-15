@@ -8,6 +8,7 @@
 import SwiftUI
 import WidgetKit
 
+//App commit to the new github
 @main
 struct CultraxyApp: App {
     var body: some Scene {
