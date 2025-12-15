@@ -1,0 +1,304 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Places",
+      "description": "Famous places in Japan",
+      "culture": "Japanese",
+      "country": "Japan",
+      "imageName": "japan_places",
+      "sections": [
+        { "id": 1, "title": "Tokyo Tower", "content": "An iconic landmark in Tokyo.", "imageName": "tokyo_tower" },
+        { "id": 2, "title": "Kyoto Temples", "content": "Beautiful historic temples in Kyoto.", "imageName": "kyoto_temples" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Food",
+      "description": "Traditional Japanese food",
+      "culture": "Japanese",
+      "country": "Japan",
+      "imageName": "japan_food",
+      "sections": [
+        { "id": 1, "title": "Sushi", "content": "Sushi is a traditional Japanese dish.", "imageName": "sushi" },
+        { "id": 2, "title": "Ramen", "content": "A popular Japanese noodle soup.", "imageName": "ramen" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Music",
+      "description": "Traditional Japanese music",
+      "culture": "Japanese",
+      "country": "Japan",
+      "imageName": "japan_music",
+      "sections": [
+        { "id": 1, "title": "Koto", "content": "A traditional string instrument.", "imageName": "koto" },
+        { "id": 2, "title": "Taiko Drums", "content": "Large Japanese drums used in festivals.", "imageName": "taiko_drums" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Traditions",
+      "description": "Japanese customs and festivals",
+      "culture": "Japanese",
+      "country": "Japan",
+      "imageName": "japan_traditions",
+      "sections": [
+        { "id": 1, "title": "Cherry Blossom Festival", "content": "Hanami, enjoying cherry blossoms in spring.", "imageName": "cherry_blossom" },
+        { "id": 2, "title": "Tea Ceremony", "content": "Ritualized preparation and serving of tea.", "imageName": "tea_ceremony" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Clothing",
+      "description": "Traditional Japanese clothing",
+      "culture": "Japanese",
+      "country": "Japan",
+      "imageName": "japan_clothing",
+      "sections": [
+        { "id": 1, "title": "Kimono", "content": "Traditional robe worn on special occasions.", "imageName": "kimono" },
+        { "id": 2, "title": "Yukata", "content": "Light summer kimono, often worn at festivals.", "imageName": "yukata" }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Places",
+      "description": "Famous places in Italy",
+      "culture": "Italian",
+      "country": "Italy",
+      "imageName": "italy_places",
+      "sections": [
+        { "id": 1, "title": "Colosseum", "content": "Iconic landmark in Rome.", "imageName": "colosseum" },
+        { "id": 2, "title": "Venice Canals", "content": "Famous canals in Venice.", "imageName": "venice_canals" }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Food",
+      "description": "Traditional Italian food",
+      "culture": "Italian",
+      "country": "Italy",
+      "imageName": "italy_food",
+      "sections": [
+        { "id": 1, "title": "Pizza", "content": "Famous Italian dish with a variety of toppings.", "imageName": "pizza" },
+        { "id": 2, "title": "Pasta", "content": "Classic pasta dishes like spaghetti and lasagna.", "imageName": "pasta" }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Music",
+      "description": "Traditional Italian music",
+      "culture": "Italian",
+      "country": "Italy",
+      "imageName": "italy_music",
+      "sections": [
+        { "id": 1, "title": "Opera", "content": "Famous Italian operas and composers.", "imageName": "opera" },
+        { "id": 2, "title": "Mandolin", "content": "Traditional string instrument.", "imageName": "mandolin" }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Traditions",
+      "description": "Italian customs and festivals",
+      "culture": "Italian",
+      "country": "Italy",
+      "imageName": "italy_traditions",
+      "sections": [
+        { "id": 1, "title": "Venice Carnival", "content": "Famous festival with masks and costumes.", "imageName": "venice_carnival" },
+        { "id": 2, "title": "Palio di Siena", "content": "Historic horse race held in Siena.", "imageName": "palio_siena" }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Clothing",
+      "description": "Traditional Italian clothing",
+      "culture": "Italian",
+      "country": "Italy",
+      "imageName": "italy_clothing",
+      "sections": [
+        { "id": 1, "title": "Renaissance Dress", "content": "Historical attire from the Renaissance era.", "imageName": "renaissance_dress" },
+        { "id": 2, "title": "Traditional Folk Costume", "content": "Regional clothing used in festivals.", "imageName": "folk_costume" }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Places",
+      "description": "Famous places in Mexico",
+      "culture": "Mexican",
+      "country": "Mexico",
+      "imageName": "mexico_places",
+      "sections": [
+        { "id": 1, "title": "Chichen Itza", "content": "Ancient Mayan pyramid in Yucatán.", "imageName": "chichen_itza" },
+        { "id": 2, "title": "Mexico City Zócalo", "content": "Historic main square in Mexico City.", "imageName": "zocalo" }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Food",
+      "description": "Traditional Mexican food",
+      "culture": "Mexican",
+      "country": "Mexico",
+      "imageName": "mexico_food",
+      "sections": [
+        { "id": 1, "title": "Tacos", "content": "Corn tortillas filled with meat, vegetables, and salsa.", "imageName": "tacos" },
+        { "id": 2, "title": "Mole", "content": "Rich, complex sauce often served over chicken.", "imageName": "mole" }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Music",
+      "description": "Traditional Mexican music",
+      "culture": "Mexican",
+      "country": "Mexico",
+      "imageName": "mexico_music",
+      "sections": [
+        { "id": 1, "title": "Mariachi", "content": "Famous Mexican ensemble with violins and guitars.", "imageName": "mariachi" },
+        { "id": 2, "title": "Ranchera", "content": "Traditional Mexican music genre.", "imageName": "ranchera" }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Traditions",
+      "description": "Mexican customs and festivals",
+      "culture": "Mexican",
+      "country": "Mexico",
+      "imageName": "mexico_traditions",
+      "sections": [
+        { "id": 1, "title": "Day of the Dead", "content": "Celebration honoring deceased loved ones.", "imageName": "day_of_the_dead" },
+        { "id": 2, "title": "Guelaguetza", "content": "Oaxacan festival showcasing dance, music, and culture.", "imageName": "guelaguetza" }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Clothing",
+      "description": "Traditional Mexican clothing",
+      "culture": "Mexican",
+      "country": "Mexico",
+      "imageName": "mexico_clothing",
+      "sections": [
+        { "id": 1, "title": "Charro Suit", "content": "Traditional outfit for men, often worn in celebrations.", "imageName": "charro_suit" },
+        { "id": 2, "title": "Huipil", "content": "Traditional embroidered dress for women.", "imageName": "huipil" }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Places",
+      "description": "Famous places in Egypt",
+      "culture": "Egyptian",
+      "country": "Egypt",
+      "imageName": "egypt_places",
+      "sections": [
+        { "id": 1, "title": "Pyramids of Giza", "content": "Ancient pyramid complex near Cairo.", "imageName": "pyramids_giza" },
+        { "id": 2, "title": "Luxor Temple", "content": "Large temple complex in Luxor.", "imageName": "luxor_temple" }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Food",
+      "description": "Traditional Egyptian food",
+      "culture": "Egyptian",
+      "country": "Egypt",
+      "imageName": "egypt_food",
+      "sections": [
+        { "id": 1, "title": "Koshari", "content": "Street food with rice, pasta, and lentils.", "imageName": "koshari" },
+        { "id": 2, "title": "Ful Medames", "content": "Stewed fava beans served with bread.", "imageName": "ful_medames" }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Music",
+      "description": "Traditional Egyptian music",
+      "culture": "Egyptian",
+      "country": "Egypt",
+      "imageName": "egypt_music",
+      "sections": [
+        { "id": 1, "title": "Oud", "content": "Traditional string instrument similar to a lute.", "imageName": "oud" },
+        { "id": 2, "title": "Ney", "content": "End-blown flute used in Middle Eastern music.", "imageName": "ney" }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Traditions",
+      "description": "Egyptian customs and festivals",
+      "culture": "Egyptian",
+      "country": "Egypt",
+      "imageName": "egypt_traditions",
+      "sections": [
+        { "id": 1, "title": "Sham El-Nessim", "content": "Spring festival celebrated with family picnics.", "imageName": "sham_el_nessim" },
+        { "id": 2, "title": "Ramadan", "content": "Holy month of fasting and prayer.", "imageName": "ramadan" }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Clothing",
+      "description": "Traditional Egyptian clothing",
+      "culture": "Egyptian",
+      "country": "Egypt",
+      "imageName": "egypt_clothing",
+      "sections": [
+        { "id": 1, "title": "Galabeya", "content": "Long robe worn by men and women.", "imageName": "galabeya" },
+        { "id": 2, "title": "Abaya", "content": "Traditional cloak for women.", "imageName": "abaya" }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Places",
+      "description": "Famous places in India",
+      "culture": "Indian",
+      "country": "India",
+      "imageName": "india_places",
+      "sections": [
+        { "id": 1, "title": "Taj Mahal", "content": "Iconic white marble mausoleum in Agra.", "imageName": "taj_mahal" },
+        { "id": 2, "title": "Jaipur Palaces", "content": "Historic palaces in Jaipur.", "imageName": "jaipur_palaces" }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Food",
+      "description": "Traditional Indian food",
+      "culture": "Indian",
+      "country": "India",
+      "imageName": "india_food",
+      "sections": [
+        { "id": 1, "title": "Biryani", "content": "Spiced rice dish with meat or vegetables.", "imageName": "biryani" },
+        { "id": 2, "title": "Samosa", "content": "Fried pastry with savory filling.", "imageName": "samosa" }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Music",
+      "description": "Traditional Indian music",
+      "culture": "Indian",
+      "country": "India",
+      "imageName": "india_music",
+      "sections": [
+        { "id": 1, "title": "Sitar", "content": "Famous string instrument in classical Indian music.", "imageName": "sitar" },
+        { "id": 2, "title": "Tabla", "content": "Traditional Indian drums used in classical and folk music.", "imageName": "tabla" }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Traditions",
+      "description": "Indian customs and festivals",
+      "culture": "Indian",
+      "country": "India",
+      "imageName": "india_traditions",
+      "sections": [
+        { "id": 1, "title": "Diwali", "content": "Festival of Lights celebrated across India.", "imageName": "diwali" },
+        { "id": 2, "title": "Holi", "content": "Color festival celebrating the arrival of spring.", "imageName": "holi" }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Clothing",
+      "description": "Traditional Indian clothing",
+      "culture": "Indian",
+      "country": "India",
+      "imageName": "india_clothing",
+      "sections": [
+        { "id": 1, "title": "Sari", "content": "Traditional garment worn by women.", "imageName": "sari" },
+        { "id": 2, "title": "Kurta", "content": "Traditional long shirt worn by men.", "imageName": "kurta" }
+      ]
+    }
+  ]
+}

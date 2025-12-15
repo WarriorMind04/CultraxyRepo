@@ -1,0 +1,63 @@
+{
+  "fun_facts": [
+    { "id": 1, "text": "In Japan, slurping noodles is considered polite and shows appreciation 🍜", "culture": "Japanese", "source": "Food Etiquette" },
+    { "id": 2, "text": "In Spain, dinner is often eaten after 9 pm 🌙", "culture": "Spanish", "source": "Daily Life" },
+    { "id": 3, "text": "In Finland, there are more saunas than cars 🧖", "culture": "Finnish", "source": "Lifestyle" },
+    { "id": 4, "text": "In South Korea, age is traditionally counted from birth 🎂", "culture": "Korean", "source": "Traditions" },
+    { "id": 5, "text": "In Italy, cappuccino is usually only drunk in the morning ☕", "culture": "Italian", "source": "Food Culture" },
+
+    { "id": 6, "text": "In Germany, it’s common to air out your house daily, even in winter 🪟", "culture": "German", "source": "Lifestyle" },
+    { "id": 7, "text": "In Mexico, Day of the Dead celebrates life, not death 💀", "culture": "Mexican", "source": "Traditions" },
+    { "id": 8, "text": "In China, red symbolizes luck and prosperity 🧧", "culture": "Chinese", "source": "Symbolism" },
+    { "id": 9, "text": "In France, it’s rude to put your hands under the table while eating 🍽️", "culture": "French", "source": "Etiquette" },
+    { "id": 10, "text": "In Thailand, touching someone’s head is considered disrespectful 🙏", "culture": "Thai", "source": "Etiquette" },
+
+    { "id": 11, "text": "In the UK, queuing patiently is a cultural norm 🚶‍♂️", "culture": "British", "source": "Social Norms" },
+    { "id": 12, "text": "In Brazil, people greet each other with kisses on the cheek 💋", "culture": "Brazilian", "source": "Social Customs" },
+    { "id": 13, "text": "In Turkey, tea is offered as a symbol of hospitality 🍵", "culture": "Turkish", "source": "Hospitality" },
+    { "id": 14, "text": "In India, eating with your hands is common and encouraged 🍛", "culture": "Indian", "source": "Food Culture" },
+    { "id": 15, "text": "In Sweden, ‘fika’ is a daily break to enjoy coffee and conversation ☕", "culture": "Swedish", "source": "Lifestyle" },
+
+    { "id": 16, "text": "In Argentina, sharing mate is a sign of friendship 🧉", "culture": "Argentinian", "source": "Traditions" },
+    { "id": 17, "text": "In Egypt, tipping is expected for many services 💵", "culture": "Egyptian", "source": "Social Norms" },
+    { "id": 18, "text": "In the Netherlands, birthdays are congratulated to everyone in the room 🎉", "culture": "Dutch", "source": "Traditions" },
+    { "id": 19, "text": "In Ethiopia, time is counted differently than in most countries ⏰", "culture": "Ethiopian", "source": "Timekeeping" },
+    { "id": 20, "text": "In Greece, showing an open palm can be an insult ✋", "culture": "Greek", "source": "Gestures" },
+
+    { "id": 21, "text": "In Japan, people avoid talking on the phone on public transport 🚇", "culture": "Japanese", "source": "Etiquette" },
+    { "id": 22, "text": "In Peru, it’s traditional to eat grapes at midnight on New Year’s Eve 🍇", "culture": "Peruvian", "source": "Celebrations" },
+    { "id": 23, "text": "In Denmark, there’s a word ‘hygge’ for cozy togetherness 🕯️", "culture": "Danish", "source": "Lifestyle" },
+    { "id": 24, "text": "In China, giving clocks as gifts is considered bad luck ⏰", "culture": "Chinese", "source": "Symbolism" },
+    { "id": 25, "text": "In Italy, bread is rarely dipped in olive oil before a meal 🍞", "culture": "Italian", "source": "Food Etiquette" },
+
+    { "id": 26, "text": "In Iceland, surnames are based on parents’ first names 📛", "culture": "Icelandic", "source": "Naming Traditions" },
+    { "id": 27, "text": "In Japan, silence in conversation is often comfortable 🤫", "culture": "Japanese", "source": "Communication Style" },
+    { "id": 28, "text": "In Colombia, being late can be socially acceptable ⏳", "culture": "Colombian", "source": "Social Norms" },
+    { "id": 29, "text": "In Russia, smiling at strangers is uncommon 🙂", "culture": "Russian", "source": "Social Norms" },
+    { "id": 30, "text": "In South Africa, barbecuing is a cultural event called a ‘braai’ 🔥", "culture": "South African", "source": "Food Culture" },
+
+    { "id": 31, "text": "In Japan, gift wrapping is considered very important 🎁", "culture": "Japanese", "source": "Gift Culture" },
+    { "id": 32, "text": "In Spain, New Year’s Eve is celebrated by eating 12 grapes 🍇", "culture": "Spanish", "source": "Celebrations" },
+    { "id": 33, "text": "In Iran, guests often politely refuse food before accepting 🍽️", "culture": "Iranian", "source": "Hospitality" },
+    { "id": 34, "text": "In New Zealand, the haka is a ceremonial dance 🕺", "culture": "Maori", "source": "Traditions" },
+    { "id": 35, "text": "In Portugal, saying thank you twice is common etiquette 🙏", "culture": "Portuguese", "source": "Politeness" },
+
+    { "id": 36, "text": "In Japan, pointing at yourself is done by touching your nose 👃", "culture": "Japanese", "source": "Gestures" },
+    { "id": 37, "text": "In Austria, people greet shopkeepers when entering stores 🏪", "culture": "Austrian", "source": "Social Etiquette" },
+    { "id": 38, "text": "In Indonesia, using your left hand can be considered rude ✋", "culture": "Indonesian", "source": "Etiquette" },
+    { "id": 39, "text": "In Scotland, men traditionally wear kilts at formal events 🥁", "culture": "Scottish", "source": "Clothing Traditions" },
+    { "id": 40, "text": "In Vietnam, direct eye contact with elders can be seen as disrespectful 👀", "culture": "Vietnamese", "source": "Respect Norms" },
+
+    { "id": 41, "text": "In Japan, bowing depth shows level of respect 🙇", "culture": "Japanese", "source": "Greetings" },
+    { "id": 42, "text": "In the Philippines, pointing with lips is common 👄", "culture": "Filipino", "source": "Gestures" },
+    { "id": 43, "text": "In Norway, outdoor life is deeply valued and called ‘friluftsliv’ 🌲", "culture": "Norwegian", "source": "Lifestyle" },
+    { "id": 44, "text": "In Hungary, clinking glasses with beer is avoided 🍺", "culture": "Hungarian", "source": "Historical Customs" },
+    { "id": 45, "text": "In Japan, business cards are given and received with both hands 💼", "culture": "Japanese", "source": "Business Etiquette" },
+
+    { "id": 46, "text": "In Morocco, mint tea is a symbol of hospitality 🍃", "culture": "Moroccan", "source": "Hospitality" },
+    { "id": 47, "text": "In Japan, trains are famous for being extremely punctual 🚆", "culture": "Japanese", "source": "Daily Life" },
+    { "id": 48, "text": "In Chile, nodding can sometimes mean ‘no’ 🙅", "culture": "Chilean", "source": "Gestures" },
+    { "id": 49, "text": "In Switzerland, making noise on Sundays is discouraged 🔕", "culture": "Swiss", "source": "Social Norms" },
+    { "id": 50, "text": "In Japan, saying ‘no’ directly is often avoided 🤝", "culture": "Japanese", "source": "Communication Style" }
+  ]
+}
