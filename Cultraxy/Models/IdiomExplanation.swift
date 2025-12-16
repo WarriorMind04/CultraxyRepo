@@ -5,8 +5,11 @@
 //  Created by José Miguel Guerrero Jiménez on 03/12/25.
 //
 
+
+
 import Foundation
 
-struct IdiomExplanation: Decodable {
+struct IdiomExplanation: Codable {
     let explanation: String
 }
+

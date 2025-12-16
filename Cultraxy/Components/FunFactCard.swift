@@ -13,55 +13,76 @@ struct FunFactCard: View {
     let readCount: Int
     
     var body: some View {
-        ZStack {
-            LinearGradient(
-                colors: [.black, .gray],
-                startPoint: .top,
-                endPoint: .bottom
-            )
+        VStack(spacing: 0) {
+            // Header simple
             
-            VStack {
-                Spacer()
-                
-                Text(fact.text)
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
-                    .multilineTextAlignment(.center)
-                    .padding(.horizontal, 32)
-                
-                Spacer()
-                
-                HStack(spacing: 30) {
-                    VStack(alignment: .leading) {
-                        Text("Culture: \(fact.culture)")
-                            .font(.caption)
-                            .foregroundColor(.white.opacity(0.7))
-                        
-                        Text("Read: \(readCount)")
-                            .font(.caption2)
-                            .foregroundColor(.white.opacity(0.6))
-                    }
+            HStack {
+                HStack(spacing: 6) {
+                    Image(systemName: "lightbulb.fill")
+                        .font(.subheadline)
+                        .foregroundColor(Color.board)
                     
-                    //Spacer()
-                    
-                    Button {
-                        shareFact(fact.text)
-                    } label: {
-                        Image(systemName: "square.and.arrow.up")
-                            .font(.title2)
-                            .foregroundColor(.white)
-                    }
+                    Text(fact.culture)
+                        .font(.subheadline)
+                        .fontWeight(.medium)
+                        .foregroundColor(.gray)
                 }
-                .padding()
-                .padding(.bottom, 82)
+                
+                Spacer()
+                
+                Text("\(readCount) reads")
+                    .font(.caption)
+                    .foregroundColor(.gray)
+            }
+            .padding(.horizontal, 20)
+            .padding(.top, 20)
+            
+            // Contenido principal - centrado verticalmente
+            VStack(spacing: 20) {
+                Text(fact.text)
+                    .font(.system(size: 20, weight: .medium))
+                    .foregroundColor(.black)
+                    .multilineTextAlignment(.center)
+                    .lineSpacing(4)
+                    .padding(.horizontal, 24)
+            }
+            .frame(maxHeight: .infinity)
+            
+            // Botón de compartir y footer pegados al fondo
+            VStack(spacing: 12) {
+                Button {
+                    shareFact(fact.text)
+                } label: {
+                    HStack(spacing: 6) {
+                        Image(systemName: "square.and.arrow.up")
+                            .font(.caption)
+                        Text("Share")
+                            .font(.subheadline)
+                            .fontWeight(.medium)
+                    }
+                    .foregroundColor(.white)
+                    .padding(.horizontal, 20)
+                    .padding(.vertical, 10)
+                    .background(Color.board)
+                    .cornerRadius(20)
+                }
+                
+                Text("Swipe for more →")
+                    .font(.caption)
+                    .foregroundColor(.gray.opacity(0.9))
+                    .padding(.bottom, 20)
             }
         }
+        .frame(height: 550)
+        .background(Color.board.opacity(0.13))
+        .cornerRadius(16)
+        .shadow(color: .black.opacity(0.1), radius: 8, x: 0, y: 4)
+        .padding(.horizontal, 30)
     }
     
     private func shareFact(_ text: String) {
         let av = UIActivityViewController(
-            activityItems: [text],
+            activityItems: ["💡 Fun Fact\n\n\(text)\n\n📚 Culture: \(fact.culture)"],
             applicationActivities: nil
         )
         UIApplication.shared
@@ -71,4 +92,17 @@ struct FunFactCard: View {
             .rootViewController?
             .present(av, animated: true)
     }
+}
+
+
+#Preview {
+    FunFactCard(
+        fact: FunFactModel(
+            id: 1,
+            text: "Los árboles pueden comunicarse entre sí a través de una red de hongos subterráneos",
+            culture: "Ciencia",
+            source: "Naturaleza"
+        ),
+        readCount: 42
+    )
 }

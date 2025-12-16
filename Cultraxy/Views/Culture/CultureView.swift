@@ -5,23 +5,28 @@
 //  Created by José Miguel Guerrero Jiménez on 09/12/25.
 //
 
+
 import SwiftUI
 
+extension Array where Element: Hashable {
+    func uniqued() -> [Element] {
+        var seen = Set<Element>()
+        return filter { seen.insert($0).inserted }
+    }
+}
 struct CultureView: View {
     
     @State private var viewModel = CultureViewModel()
     
     
     var body: some View {
+        
         VStack(spacing: 16) {
+            Spacer()
             
-            // 🔹 Selector de país
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 12) {
-                    /*Button("All") { viewModel.filterByCountry(nil) }
-                        .buttonStyle(PrimaryButtonStyle(selected: viewModel.selectedCountry == nil))*/
-                    
-                    ForEach(Array(Set(viewModel.allCategories.map { $0.country })), id: \.self) { country in
+                    ForEach(Array(Set(viewModel.allCategories.map { $0.country })).sorted(), id: \.self) { country in
                         Button(country) {
                             viewModel.filterByCountry(country)
                         }
@@ -31,8 +36,8 @@ struct CultureView: View {
                 .padding(.horizontal)
             }
             
-            // 🔹 Tarjetas de categorías
             ScrollView {
+                Spacer()
                 VStack(spacing: 16) {
                     ForEach(viewModel.filteredCategories) { category in
                         CategoryCulture(
@@ -44,8 +49,9 @@ struct CultureView: View {
                     }
                 }
             }
+            Spacer()
         }
-        // 🔹 Modal con Binding manual
+        .background(Color.board.opacity(0.05))
         .sheet(isPresented: Binding(
             get: { viewModel.isModalPresented },
             set: { viewModel.isModalPresented = $0 }
@@ -56,6 +62,7 @@ struct CultureView: View {
         }
     }
 }
+
 
 
 #Preview {

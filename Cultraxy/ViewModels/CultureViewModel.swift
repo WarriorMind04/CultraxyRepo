@@ -38,7 +38,6 @@ class CultureViewModel {
                 }
     }
     
-    // 🔹 Nueva función para seleccionar país por defecto
         private func selectDefaultCountry() {
             // Obtener el primer país disponible
             if let firstCountry = allCategories.first?.country {

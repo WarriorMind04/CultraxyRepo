@@ -14,7 +14,7 @@ struct PrimaryButtonStyle: ButtonStyle {
         configuration.label
             .padding(.horizontal, 16)
             .padding(.vertical, 8)
-            .background(selected ? Color.blueSecondary : Color.gray.opacity(0.3))
+            .background(selected ? Color.board : Color.board.opacity(0.15))
             .foregroundColor(selected ? .white : .black)
             .clipShape(Capsule())
     }
