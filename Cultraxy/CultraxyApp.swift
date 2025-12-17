@@ -21,6 +21,7 @@ struct CultraxyApp: App {
                     WidgetCenter.shared.reloadTimelines(ofKind: "FunFactWidget")
                     
                 }
+                .preferredColorScheme(.light)
         }
     }
 }

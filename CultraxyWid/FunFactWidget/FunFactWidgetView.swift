@@ -19,9 +19,11 @@ struct FunFactWidgetView: View {
                 .foregroundColor(.secondary)
             Text("Source: \(entry.funFact.source)")
                 .font(.caption)
-                .foregroundColor(.gray)
+                .foregroundColor(.borde)
         }
         .padding()
+       
+        //.shadow(color: .black.opacity(0.1), radius: 8, x: 0, y: 4)
     }
 }
 

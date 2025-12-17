@@ -16,7 +16,7 @@ struct FunFactWidget: Widget {
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: kind, provider: FunFactTimelineProvider()) { entry in
             FunFactWidgetView(entry: entry)
-                .containerBackground(.fill.tertiary, for: .widget)
+                .containerBackground(Color.board, for: .widget)
         }
         .configurationDisplayName("Fun Facts")
         .description("Learn fun facts about different cultures!")
