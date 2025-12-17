@@ -66,3 +66,31 @@ SwiftUI App  ──▶  Flask Backend (Vercel)  ──▶  Gemini API
      │                     └── AI-generated explanations, examples & suggestions
      │
 Widgets & Notifications
+
+```
+## 🎯 Target Audience
+- Language learners
+- Exchange students & travelers
+- Users interested in cultural context, not just vocabulary
+
+---
+
+## 🌱 Future Improvements
+- User profiles & learning progress
+- Favorite idioms and history
+- More languages and cultures
+- Spaced repetition system
+- Offline support for saved content
+
+---
+
+## 📄 License
+This project is developed for educational and demonstrational purposes.
+
+---
+
+## 👥 Team
+CultrAxy was designed and developed as a collaborative project combining:
+- iOS development with SwiftUI
+- Backend & AI integration
+- UX focused on active learning and cultural immersion
