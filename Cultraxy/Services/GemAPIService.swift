@@ -11,7 +11,7 @@ import Foundation
 
 class GemAPIService {
 
-    private let baseURL = "https://backend-cultraxy-jqxmkt1wo-jose-miguels-projects-4169b721.vercel.app/"
+    let baseURL = "https://backend-cultraxy-bc30zuwik-jose-miguels-projects-4169b721.vercel.app/"
 
     /// Llama al backend para explicar un idiom en el idioma seleccionado
     func explainIdiom(

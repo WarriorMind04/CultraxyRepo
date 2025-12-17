@@ -34,10 +34,10 @@ struct tabBar: View {
             .tag(Tab.home)
             
             NavigationStack {
-                CultureView()
-                    .navigationTitle("Culture")
+                IdiomPracticeView()
+                    .navigationTitle("Idiom Practice")
             }
-            .tabItem { Label("Culture", systemImage: "globe.americas.fill") }
+            .tabItem { Label("Practice", systemImage: "pencil.and.outline") }
             .tag(Tab.culture)
         }
         .tint(.board)

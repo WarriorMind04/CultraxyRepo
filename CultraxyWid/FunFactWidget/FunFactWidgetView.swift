@@ -24,3 +24,5 @@ struct FunFactWidgetView: View {
         .padding()
     }
 }
+
+
